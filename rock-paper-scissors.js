@@ -70,7 +70,7 @@ function playRound() {
 
 function playGame() {
 
-    instruc.textContent = 'Pick Rock, Paper, or Scissors';
+    
     playRound();
     pScore.textContent = `Player Score: ${playerScore}`;
     cScore.textContent = `Ai Score: ${computerScore}`;
