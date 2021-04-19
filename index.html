@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <p id="result-preview"></p>
-    <p class="text" id="instruc">Welcome to RPS!</p>
+    <h1 class="header" id="instruc">Pick Rock, Paper, or Scissors to begin!</h1>
+
+
+
+    <div class="score-container">
+        <p class="text" id="p-score">Player Score:</p>
+        <p class="text" id="c-score">Computer Score:</p>
+    </div>
+
     <div class="buttons">
         <button class="btn" id="rock">Rock</button>
         <button class="btn" id="paper">Paper</button>
         <button class="btn" id="scissors">Scissors</button>
     </div>
-    <div class="score-container">
-        <p class="text" id="p-score">Player Score:</p>
-        <p class="text" id="c-score">Computer Score:</p>
-    </div>
+
     <div class="result-container">
         <p class="text" id="output">Result:</p>
         <p class="text" id="gameResults">Game Results: </p>
-        
     </div>
 
     <script src='rock-paper-scissors.js'></script>
